@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simon Game</title>
+</head>
+<body>
+
+<div class="container">
+  <h1>🧠 Simon Memory Challenge</h1>
+  <div class="title-divider">
+    <span></span>
+    <div class="diamond"></div>
+    <span></span>
+</div>
+
+    <h2>Click the Start Button to Begin</h2>
+    <p id="high-score">🏆 High Score : 0</p>
+
+    <div class="line-one">
+        <div class="btn red" id="red"></div>
+        <div class="btn yellow" id="yellow"></div>
+    </div>
+
+    <div class="line-two">
+        <div class="btn green" id="green"></div>
+        <div class="btn blue" id="blue"></div>
+    </div>
+<button id="start-btn">Start Game</button>
+<div id="overlay"></div>
+
+<div id="game-over-popup">
+    <h3>💀 GAME OVER</h3>
+
+    <p>Your Score: <span id="final-score">0</span></p>
+
+    <button id="restart-btn">Play Again</button>
+</div>
+<p class="footer"> Made by Shivam Vishwakarma</p>
+   
+</div>
+      
+    <script src="main.js"></script>
+
+</body>
+</html>
